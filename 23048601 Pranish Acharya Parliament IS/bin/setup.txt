@@ -1,0 +1,5 @@
+# Compile the source code
+javac -d bin -cp "lib/mysql-connector-j-9.1.0.jar:src" src/**/*.java
+
+# Run the application
+java -cp "bin:lib/mysql-connector-j-9.1.0.jar" src.Main
